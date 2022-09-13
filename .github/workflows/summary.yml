@@ -1,11 +1,9 @@
 name: summary papers
 
 on:
-  push:
-    branches:
-    - master
-    paths:
-    - "*/论文基本信息.md"
+  schedule:
+    - cron: '50 12 * * *'
+
 jobs:
   build:
     name: summary
