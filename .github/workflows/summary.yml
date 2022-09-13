@@ -1,0 +1,32 @@
+name: summary papers
+
+on:
+ push:
+  branches:
+  - master
+  paths:
+  - "*/论文基本信息.md"
+
+jobs:
+  build:
+    name: summary
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.8"
+    - name: summary papers
+      run: |
+        python summary.py
+    - name: commit
+      run: |
+        git config --global user.name "dongshou"
+        git config --global user.email "2321084428@qq.com"
+        git add .
+        git commit -m "summary $(date +%Y-%m-%d)"
+    - name: push
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
