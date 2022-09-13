@@ -48,13 +48,13 @@
 
 **实体和查询盒子间的距离（Entity-to-Box distance）**
 
-![](images/entity-wo-box distance.png)
+![](images/entity-wo-box%20distance.png)
 
 **loss function**：
 
 ​				负采样：与BetaE的损失函数相同，只是重新定义了实体和query之间的距离
 
-![](images/loss function.png)
+![](images/loss%20function.png)
 
 **析取算子的处理**：转换为合取范式
 
@@ -64,9 +64,9 @@
 
 ​                    [对于析取操作（就是并集），大家可以想到，并集后的元素或者空间一般都是越来越大的。这样的话，如果后面再有其他的操作，计算成本就会更很多。而他们想出了一种优化方法。根据逻辑命题的范式存在定理，其实对应任何的公式，都能够找到等值的CNF和DNF。这里转换为DNF，也就是说所有的析取操作（并集操作将推到最后才进行）。如下图，这里就进行DNF转换，让并集操作在最后计算。](https://jishuin.proginn.com/p/763bfbd61ae1)
 
-![](images/why transformer.png)
+![](images/why%20transformer.png)
 
-![](images/to DNF.png)
+![](images/to%20DNF.png)
 
 
 
