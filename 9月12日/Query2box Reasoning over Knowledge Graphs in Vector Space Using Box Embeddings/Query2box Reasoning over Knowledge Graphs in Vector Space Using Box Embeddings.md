@@ -22,7 +22,7 @@
 
 **如何表示一个Box**
 
-​				define a box by $p = (Cen(p),Off(p)) \in \R^{2d}$
+​				define a box by $p = (Cen(p),Off(p)) \in \R^{2d}$，注意$p \in \R^{2d}\ not\ \in \R^{2,d}$
 
 ![](images/Box Embedding.png)
 
@@ -42,9 +42,9 @@
 
 ![](images/intersection.png)
 
- 					**问题**：DeepSets的作用是什么，DeepSets公式中的MLP(1/N)有什么用，为什么不直接$\times 1/N ?$
+✔ **问题1**：DeepSets的作用是什么，DeepSets公式中的MLP(1/N)有什么用？ 
 
-​										查看论文Deep Sets
+   《Deep sets》中定理2：$if \ f(X) $是恒等变换的，则该函数能够被分解成$\rho(\sum_{x \in X}\phi (x))$。在计算合取算子的过程中，应用Deep sets，则可以排除不同节点$p_i$排列的影响。
 
 **实体和查询盒子间的距离（Entity-to-Box distance）**
 
