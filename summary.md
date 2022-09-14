@@ -5,8 +5,6 @@
 |序号|标题|作者|时间|期刊|
 |:-:|:-:|:-:|:-:|:-:|
 |1|                         [大规模知识图谱补全技术的研究进展](9月11日/大规模知识图谱补全技术的研究进展)|                          王硕 , 杜志娟 , 孟小峰|                         2020年|                         None|
-|2|                         [Beta Embeddings for Multi-Hop Logical Reasoning in Knowledge Graphs](9月11日/Beta%20Embeddings%20for%20Multi-Hop%20Logical%20Reasoning%20in%20Knowledge%20Graphs)|                          Hongyu Ren、Jure Leskovec|                         2020年|                         None|
-|3|                         [Query2box: Reasoning over Knowledge Graphs in Vector Space Using Box Embeddings](9月12日/Query2box:%20Reasoning%20over%20Knowledge%20Graphs%20in%20Vector%20Space%20Using%20Box%20Embeddings)|                          Hongyu Ren,Weihua Hu|                         2020年|                         ICLR 2020|
 
 
 ## 多模态（文本、图像）注意力机制 情感分析
@@ -25,6 +23,14 @@
 |序号|标题|作者|时间|期刊|
 |:-:|:-:|:-:|:-:|:-:|
 |1|                         [Zoom Out and Observe: News Environment Perception for Fake News Detection（假新闻检测](9月11日/Zoom%20Out%20and%20Observe%20%20News%20Environment%20Perception%20for%20Fake%20News%20Detection（假新闻检测)|                          Qiang Sheng, Juan Cao, Xueyao Zhang, Rundong Li, Danding Wang, Yongchun Zhu|                         2022-03-21|                         None|
+
+
+## 知识图谱-知识推理
+|序号|标题|作者|时间|期刊|
+|:-:|:-:|:-:|:-:|:-:|
+|1|                         [Beta Embeddings for Multi-Hop Logical Reasoning in Knowledge Graphs](9月11日/Beta%20Embeddings%20for%20Multi-Hop%20Logical%20Reasoning%20in%20Knowledge%20Graphs)|                          Hongyu Ren、Jure Leskovec|                         2020年|                         None|
+|2|                         [Query2box: Reasoning over Knowledge Graphs in Vector Space Using Box Embeddings](9月12日/Query2box:%20Reasoning%20over%20Knowledge%20Graphs%20in%20Vector%20Space%20Using%20Box%20Embeddings)|                          Hongyu Ren,Weihua Hu|                         2020年|                         ICLR 2020|
+|3|                         [RNNLogic Learning Logic Rules for Reasoning on Knowledge Graphs](9月14日/RNNLogic%20Learning%20Logic%20Rules%20for%20Reasoning%20on%20Knowledge%20Graphs)|                          Meng Qu, Junkun Chen|                         2021|                         ICLR2021|
 
 
 ## 知识图谱补全--领域应用
@@ -64,3 +70,15 @@
 |序号|标题|作者|时间|期刊|
 |:-:|:-:|:-:|:-:|:-:|
 |1|                         [Pixel-Adaptive Convolutional Neural Networks](9月13日/Pixel-Adaptive%20Convolutional%20Neural%20Networks)|                          H Su，V Jampani，D Sun，O Gallo，J Kautz|                         2019|                         IEEE|
+
+
+## Bert原论文，仅查看在对话实验上对预训练模型的使用。
+|序号|标题|作者|时间|期刊|
+|:-:|:-:|:-:|:-:|:-:|
+|1|                         [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](9月14日/BERT%20%20Pre-training%20of%20Deep%20Bidirectional%20Transformers%20for%20Language%20Understanding)|                          Jacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova|                         2021|                         ACM|
+
+
+## 知识图谱--构建+补全
+|序号|标题|作者|时间|期刊|
+|:-:|:-:|:-:|:-:|:-:|
+|1|                         [基于法院判决文书的法律知识图谱构建和补全](9月14日/基于法院判决文书的法律知识图谱构建和补全)|                          王宁; 刘玮; 兰剑|                         2021|                         武汉工程大学|
