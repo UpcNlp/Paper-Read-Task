@@ -1,0 +1,19 @@
+这是一篇讲解transformer的论文，论文内容介绍并没有很详尽，可参考b站李沐老师的讲解进行理解
+https://www.bilibili.com/video/BV1pu411o7BE?spm_id_from=333.337.search-card.all.click
+而这篇论文提出了一种新的并且更为简单的网络结构， 不再依赖RNN或者是CNN，只需要attention机制就能解决Seq-Seq的问题， 并且能够一步到位获取了全局信息。
+Transformer依旧离不开encoder和decoder，依然需要encoder-decoder结构。编码器映射符号表达的输入序列（x1,⋅⋅⋅,xn）到一个连续表达z=(z1,⋅⋅⋅,zn)。给定z， 一个解码器生成一个符号的输出序列（y1,⋅⋅⋅,ym）一次一
+
+编码器：
+使用N = 6的完全一样的层堆积。每层有两个子层，第一个是multi-head 自注意力机制，第二个是一个简单，居于位置的全连接前向反馈网络。我们使用残差连接在每两个子层间，后加上层正则化。每个子层的输出是
+LayerNorm(x+Sublayer(x))， 其中sublayer(x)是有子层自己实现的函数。为了促进这些残差连接，所有子层和嵌入层一样，产生的输出维度为dmodel=512。
+解码器：
+解码器也是由N = 6完全相同层推挤而成。在每个编码层包括两个子层，在解码器插入第三个子层，完成multi-head注意力在编码器堆积的输出。类似编码器，我们使用残差连接在每个子层，后面加上层正则化。我们也修订自
+-注意力子层在解码器堆积来保留位置。结合事实输出嵌入由一个位置抵消，确保对i位置的预测值依赖于已知的在i之前位置的输出。
+
+注意力计算公式如图“注意力计算”所示，式子中的d意思为Q矩阵的列数也就是K矩阵的行数
+scaled Dot-product Attention图中，mask时将Qt和Kt和他之后计算的值，换成一个负值，经过softmax变化，这些值就变得非常的小，可以看作为0
+多头注意力图：把整个query key value投影到低维h次，然后做h次的注意力函数，将每个函数的输出并在一起，再投影回来就是最终的输出
+在模型图中，编码器的输出作为Key和vValue进入解码器，解码器经过masked multi-head attention输出作为Query
+在解码器中，根据解码器中间过程的输出与编码器结果的不同，在编码器的输入中找到感兴趣的东西
+positional embedding产生一个与输入向量大小相等的位置向量，然后再与输入向量做相加运算。
+为什么需要positional embeddingna？是因为attention是没有时序信息的，权重是Query和Key之间的相似度，输出是value的加权和，所以attention不关注时序信息，需要进行positional embedding
