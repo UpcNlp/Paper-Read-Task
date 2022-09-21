@@ -87,11 +87,10 @@ def summary_all(path="./"):
     }
     """
     papers = defaultdict(dict)
-    for file in os.listdir(path):
-        if not os.path.isdir(path+f"{file}") or file.startswith("."):
-            continue
-        paper = read_from_md(path+f"{file}/论文基本信息.md")   # 如何处理同名论文？按照规则来说，应当在文档中列出来标红，等待处理
-        papers = paper_merger(papers,paper) #合并文档
+    for root,dirs,files in os.walk(path):
+        if "论文基本信息.md" in files:
+            paper = read_from_md(root+"/论文基本信息.md")
+            papers = paper_merger(papers,paper)
     
     # 排序，先类内排序，在类间排序
     
