@@ -7,6 +7,67 @@
 |1|                         [How to gain a competitive edge in grant writing](9月19日/How%20to%20gain%20a%20competitive%20edge%20in%20grant%20writing)|                          Orit Rapaport, Justin Crest & Crystal Botham|                         2022|                         Nature|
 
 
+## 基于逻辑符号的知识推理
+|序号|标题|作者|时间|期刊|
+|:-:|:-:|:-:|:-:|:-:|
+|1|                         [Learning Reasoning Strategies in End-to-End Differentiable Proving](9月19日/Learning%20Reasoning%20Strategies%20in%20End-to-End%20Differentiable%20Proving)|                          P Minervini, S Riedel, P Stenetorp|                         2020|                         ICML 2020|
+|2|                         [End-to-End Differentiable Proving](9月20日/End-to-End%20Differentiable%20Proving)|                          T Rocktäschel, S Riedel|                         2017|                         NIPS 2017|
+|3|                         [Differentiable Reasoning on Large Knowledge Bases and Natural Language](9月21日/Differentiable%20Reasoning%20on%20Large%20Knowledge%20Bases%20and%20Natural%20Language)|                          P Minervini, M Bošnjak, T Rocktäschel|                         2020|                         AAAI 2020|
+|4|                         [Neural Theorem Provers Delineating Search Area Using RNN](9月28日/Neural%20Theorem%20Provers%20Delineating%20Search%20Area%20Using%20RNN)|                          Yu-hao Wu, Hou-biao Li|                         2022|                         arxiv|
+
+
+## Computation and Language 、Bert
+|序号|标题|作者|时间|期刊|
+|:-:|:-:|:-:|:-:|:-:|
+|1|                         [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](9月19日/BERT%20%20Pre-training%20of%20Deep%20Bidirectional%20Transformers%20for%20Language%20Understanding)|                          Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova|                         2018年11月|                         |
+
+
+## 虚假信息检测
+|序号|标题|作者|时间|期刊|
+|:-:|:-:|:-:|:-:|:-:|
+|1|                         [Edited Media Understanding Frames: Reasoning About the Intents and Implications of Visual Disinformation](9月19日/Edited%20Media%20Understanding%20Frames:%20Reasoning%20About%20the%20Intents%20and%20Implications%20of%20Visual%20Disinformation)|                          Jeff Da, Maxwell Forbes, Rowan Zellers, Anthony Zheng, Jena D. Hwang, Antoine Bosselut, Yejin Choi|                         2021|                         ACL 2021|
+|2|                         [The Future of False Information Detection on Social Media: New Perspectives and Trends](学期第2周\9月12日/The%20Future%20of%20False%20Information%20Detection%20on%20Social%20Media%20%20New%20Perspectives%20and%20Trends)|                          郭斌、丁亚三、姚丽娜、梁云吉、于志伟|                         2020|                         ACM Computing Surveys|
+|3|                         [Generalizing to the Future: Mitigating Entity Bias in Fake News Detection](学期第2周\9月13日/Generalizing%20to%20the%20Future:%20Mitigating%20Entity%20Bias%20in%20Fake%20News%20Detection)|                          朱勇椿、盛强、曹娟、李硕凯、汪旦丁、庄福振|                         2022|                         ACM 2022|
+|4|                         [Improving Fake News Detection by Using an Entity-enhanced Framework to Fuse Diverse Multimodal Clues](学期第2周\9月14日/Improving%20Fake%20News%20Detection%20by%20Using%20an%20Entity-enhanced%20Framework%20to%20Fuse%20Diverse%20Multimodal%20Clues)|                          亓鹏、曹娟、李锡荣、刘欢、盛强、弭晓月、何覃、吕永标、郭晨阳、俞颖超|                         2021|                         ACM MM 2021|
+|5|                         [The expectation-maximization algorithm](学期第2周\9月15日/The%20expectation-maximization%20algorithm)|                          T.K. Moon|                         1996|                         IEEE Signal Processing Magazine|
+
+
+## 软件需求与可视化
+|序号|标题|作者|时间|期刊|
+|:-:|:-:|:-:|:-:|:-:|
+|1|                         [软件需求与可视化模型](9月20日/软件需求与可视化模型)|                          Joy Beatty，Anthony Chen|                         2017年|                         图书|
+
+
+## 对话
+|序号|标题|作者|时间|期刊|
+|:-:|:-:|:-:|:-:|:-:|
+|1|                         [Recipes for building an open-domain chatbot.](9月20日/Recipes%20for%20building%20an%20open-domain%20chatbot.)|                          Roller|                         2021|                         |
+|2|                         [Do Response Selection Models Really Know What’s Next?](9月22日/Do%20Response%20Selection%20Models%20Really%20Know%20What’s%20Next?)|                          Taesun Whang|                         2021|                         AAAI-21|
+|3|                         [Structural Pre-training for Dialogue Comprehension](9月23日/Structural%20Pre-training%20for%20Dialogue%20Comprehension)|                          Zhuosheng Zhang|                         2021|                         acl2021|
+|4|                         [Improved Deep Learning Baselines for Ubuntu Corpus Dialogs](学期第2周\9月12日/Improved%20Deep%20Learning%20Baselines%20for%20Ubuntu%20Corpus%20Dialogs)|                          Rudolf Kadlec, Martin Schmid, Jan Kleindienst|                         2015|                         |
+|5|                         [Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-Based Chatbots](学期第2周\9月13日/Sequential%20Matching%20Network%20%20A%20New%20Architecture%20for%20Multi-turn%20Response%20Selection%20in%20Retrieval-Based%20Chatbots)|                          Yu Wu, Wei Wu, Chen Xing, Zhoujun Li†, Ming Zhou|                         2017|                         ACL2017|
+|6|                         [Poly-encoders: architectures and pre-training strategies for fast and accurate multi-sentence scoring](学期第2周\9月15日/Poly-encoders%20%20architectures%20and%20pre-training%20strategies%20for%20fast%20and%20accurate%20multi-sentence%20scoring)|                          Samuel Humeau, Kurt Shuster, Marie-Anne Lachaux, Jason Weston|                         2020|                         ICLR2020|
+|7|                         [An Effective Domain Adaptive Post-Training Method for BERT in Response Selection](学期第2周\9月18日/An%20Effective%20Domain%20Adaptive%20Post-Training%20Method%20for%20BERT%20in%20Response%20Selection)|                          Taesun Whang|                         2020|                         ACL|
+
+
+## 虚假信息检测-预测结果可解释性研究
+|序号|标题|作者|时间|期刊|
+|:-:|:-:|:-:|:-:|:-:|
+|1|                         [Reinforcement Subgraph Reasoning for Fake News Detection](9月21日/Reinforcement%20Subgraph%20Reasoning%20for%20Fake%20News%20Detection)|                          Ruichao Yang, Xiting Wang, Yiqiao Jin, Chaozhuo Li, Jianxun Lian, Xing Xie|                         2022|                         KDD 2022|
+
+
+## 虚假信息识别-基于文本的检测方法-跨领域知识迁移
+|序号|标题|作者|时间|期刊|
+|:-:|:-:|:-:|:-:|:-:|
+|1|                         [Improving Fake News Detection of Influential Domain via Domain- and Instance-Level Transfer](9月22日/Improving%20Fake%20News%20Detection%20of%20Influential%20Domain%20via%20Domain-%20and%20Instance-Level%20Transfer)|                          Qiong Nan, Danding Wang, Yongchun Zhu, Qiang Sheng, Yuhui Shi, Juan Cao, Jintao Li|                         2022|                         COLING 2022|
+
+
+## 强化学习
+|序号|标题|作者|时间|期刊|
+|:-:|:-:|:-:|:-:|:-:|
+|1|                         [Continuous control with deep reinforcement learning](9月27日/Continuous%20control%20with%20deep%20reinforcement%20learning)|                          Timothy P. Lillicrap, Jonathan J. Hunt|                         2015|                         ICLR2016|
+
+
 ## 知识图谱-链路预测
 |序号|标题|作者|时间|期刊|
 |:-:|:-:|:-:|:-:|:-:|
@@ -45,24 +106,6 @@
 |序号|标题|作者|时间|期刊|
 |:-:|:-:|:-:|:-:|:-:|
 |1|                         [航空安全事件知识图谱补全方法](学期第2周\9月12日/航空安全事件知识图谱补全方法)|                          王红; 卢林燕; 王童|                         2020|                         西南大学学报(自然科学版)|
-
-
-## 虚假信息检测
-|序号|标题|作者|时间|期刊|
-|:-:|:-:|:-:|:-:|:-:|
-|1|                         [The Future of False Information Detection on Social Media: New Perspectives and Trends](学期第2周\9月12日/The%20Future%20of%20False%20Information%20Detection%20on%20Social%20Media%20%20New%20Perspectives%20and%20Trends)|                          郭斌、丁亚三、姚丽娜、梁云吉、于志伟|                         2020|                         ACM Computing Surveys|
-|2|                         [Generalizing to the Future: Mitigating Entity Bias in Fake News Detection](学期第2周\9月13日/Generalizing%20to%20the%20Future:%20Mitigating%20Entity%20Bias%20in%20Fake%20News%20Detection)|                          朱勇椿、盛强、曹娟、李硕凯、汪旦丁、庄福振|                         2022|                         ACM 2022|
-|3|                         [Improving Fake News Detection by Using an Entity-enhanced Framework to Fuse Diverse Multimodal Clues](学期第2周\9月14日/Improving%20Fake%20News%20Detection%20by%20Using%20an%20Entity-enhanced%20Framework%20to%20Fuse%20Diverse%20Multimodal%20Clues)|                          亓鹏、曹娟、李锡荣、刘欢、盛强、弭晓月、何覃、吕永标、郭晨阳、俞颖超|                         2021|                         ACM MM 2021|
-|4|                         [The expectation-maximization algorithm](学期第2周\9月15日/The%20expectation-maximization%20algorithm)|                          T.K. Moon|                         1996|                         IEEE Signal Processing Magazine|
-
-
-## 对话
-|序号|标题|作者|时间|期刊|
-|:-:|:-:|:-:|:-:|:-:|
-|1|                         [Improved Deep Learning Baselines for Ubuntu Corpus Dialogs](学期第2周\9月12日/Improved%20Deep%20Learning%20Baselines%20for%20Ubuntu%20Corpus%20Dialogs)|                          Rudolf Kadlec, Martin Schmid, Jan Kleindienst|                         2015|                         |
-|2|                         [Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-Based Chatbots](学期第2周\9月13日/Sequential%20Matching%20Network%20%20A%20New%20Architecture%20for%20Multi-turn%20Response%20Selection%20in%20Retrieval-Based%20Chatbots)|                          Yu Wu, Wei Wu, Chen Xing, Zhoujun Li†, Ming Zhou|                         2017|                         ACL2017|
-|3|                         [Poly-encoders: architectures and pre-training strategies for fast and accurate multi-sentence scoring](学期第2周\9月15日/Poly-encoders%20%20architectures%20and%20pre-training%20strategies%20for%20fast%20and%20accurate%20multi-sentence%20scoring)|                          Samuel Humeau, Kurt Shuster, Marie-Anne Lachaux, Jason Weston|                         2020|                         ICLR2020|
-|4|                         [An Effective Domain Adaptive Post-Training Method for BERT in Response Selection](学期第2周\9月18日/An%20Effective%20Domain%20Adaptive%20Post-Training%20Method%20for%20BERT%20in%20Response%20Selection)|                          Taesun Whang|                         2020|                         ACL|
 
 
 ## 长文本缩减、自注意力机制、卷积神经网络
